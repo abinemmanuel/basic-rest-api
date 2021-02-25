@@ -65,12 +65,13 @@ sls delploy
 
 ## TODO:
 
-- [ ] Add Sample get function
-- [ ] Add Serverless config
-- [ ] Enable CORS
-- [ ] Implement API versioning
+- [x] Add Sample get function
+- [x] Add Serverless config
+- [x] Enable CORS
+- [x] Implement API versioning
 - [ ] Add Unit Tests
-- [ ] Add OpenAPI Documentation
+- [x] Add OpenAPI Documentation
+- [ ] Enhance get API by adding query arameters and result customization.
 - [ ] Expand sample to add put post and delete functions
 - [ ] Implement various AWS resource integrations.
 - [ ] Add ESLint.
