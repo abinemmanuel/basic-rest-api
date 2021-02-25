@@ -49,6 +49,10 @@ Execute tests as below
 ```bash
 npm run test
 ```
+## API Documentation
+
+[OpenAPI Swagger Description](docs/api.yml)
+
 ## Manage Plugins
 
 Add plugins like below:
