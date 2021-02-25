@@ -1,0 +1,40 @@
+# serverless configurations
+service: basic-rest-api
+frameworkVersion: '2'
+
+package:
+  individually: false
+  excludeDevDependencies: true
+
+plugins:
+  - serverless-offline
+
+custom:
+  region: us-west-2
+  stage: dev
+  sls-deployment-bucket: basic-rest-api-sls-deployment-bucket
+
+provider:
+  name: aws
+  region: ${self:custom.region, opt:region}
+  stage: ${self:custom.stage, opt:stage}
+  runtime: nodejs12.x
+  apiGateway:
+    shouldStartNameWithService: true
+  versionFunctions: false
+  deploymentBucket: 
+    name: ${self:custom.sls-deployment-bucket}-${self:custom.stage, opt:stage}
+  endpointType: REGIONAL
+  environment:
+    STAGE: ${self:provider.stage}
+  httpApi:
+    cors: true
+    
+functions:
+  getResultsV1:
+    handler: src/functions/get/v1/getResults.handler
+    events:
+      - httpApi:
+          path: /v1/results
+          method: get
+

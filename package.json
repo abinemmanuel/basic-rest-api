@@ -1,0 +1,27 @@
+{
+  "name": "basic-sls-aws-rest-api",
+  "version": "1.0.0",
+  "description": "Boilerplate for rest api in serverless AWS environmnt using lambda functions written in nodejs with all basic components for an app.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx serverless offline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abinemmanuel/basic-rest-api.git"
+  },
+  "keywords": [
+    "restApi",
+    "serverless",
+    "aws",
+    "lambda",
+    "nodejs"
+  ],
+  "author": "Abin Emmanuel",
+  "license": "MIT",
+  "devDependencies": {
+    "serverless": "^2.27.0",
+    "serverless-offline": "^6.8.0"
+  }
+}

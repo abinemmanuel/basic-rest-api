@@ -1,0 +1,10 @@
+# npm related
+node_modules
+npm-debug.log
+.npm
+
+# Serverless directories
+.serverless
+
+# mac 
+.DS_Store
