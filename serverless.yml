@@ -8,6 +8,7 @@ package:
 
 plugins:
   - serverless-offline
+  - serverless-deployment-bucket
 
 custom:
   region: us-west-2
