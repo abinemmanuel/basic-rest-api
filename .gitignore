@@ -6,5 +6,8 @@ npm-debug.log
 # Serverless directories
 .serverless
 
+# testing
+reports
+
 # mac 
 .DS_Store
