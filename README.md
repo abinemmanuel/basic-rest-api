@@ -73,9 +73,9 @@ sls delploy
 - [x] Add Serverless config
 - [x] Enable CORS
 - [x] Implement API versioning
-- [ ] Add Unit Tests
+- [x] Add Unit Tests
 - [x] Add OpenAPI Documentation
-- [ ] Enhance get API by adding query arameters and result customization.
+- [ ] Enhance get API by adding query parameters and result customization.
 - [ ] Expand sample to add put post and delete functions
 - [ ] Implement various AWS resource integrations.
 - [ ] Add ESLint.
