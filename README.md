@@ -75,10 +75,10 @@ sls delploy
 - [x] Implement API versioning
 - [x] Add Unit Tests
 - [x] Add OpenAPI Documentation
+- [x] Add ESLint.
 - [ ] Enhance get API by adding query parameters and result customization.
 - [ ] Expand sample to add put post and delete functions
 - [ ] Implement various AWS resource integrations.
-- [ ] Add ESLint.
 - [ ] Secure API with Auth Token / Access key.
 - [ ] Add deployment pipeline.
 - [ ] Add integration test.
